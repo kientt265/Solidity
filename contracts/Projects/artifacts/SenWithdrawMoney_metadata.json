@@ -7,34 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "increementInt",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "increementUint8",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myInt",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint",
+				"name": "blanceReceived",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -47,26 +20,40 @@
 			},
 			{
 				"inputs": [],
-				"name": "myUint8",
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getContractBalance",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_myUint",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
 					}
 				],
-				"name": "setMyUint",
+				"name": "withdrawToAddress",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -85,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Study/ExampleUnt.sol": "ExampleUnt"
+			"contracts/Projects/SendMoneyExample.sol": "SenWithdrawMoney"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -99,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Study/ExampleUnt.sol": {
-			"keccak256": "0x9e79fffe267b64105c2676991f10260b33559382fba41d21badc3fd5dfba22cb",
+		"contracts/Projects/SendMoneyExample.sol": {
+			"keccak256": "0xc74d3aa18279a299238df7ddef0a6bae6c36f49e5c2135c1df89d4e8f15d7509",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5406ce660c1fd45fcd53b3b648ddf74abd7d42b6cc11f27d1074b9598656beda",
-				"dweb:/ipfs/QmUaR2Ne6apuCnjho9ZC1SYYaFdeua3gdQA7CRMJv29kmG"
+				"bzz-raw://b072e265e42c49b45285a54d40c4520597e0dd581de9949238faaf931bf5883b",
+				"dweb:/ipfs/QmNRjxYbdRCLBD5ZgjAAqDKb4LHY6W7PMqXcwRHx4B9rNr"
 			]
 		}
 	},

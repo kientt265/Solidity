@@ -7,29 +7,28 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "decrement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint8",
+				"name": "myBool",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint8"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
+					}
+				],
+				"name": "setMyBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -46,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Study/ExampleWrapAround.sol": "ExampleWrapAround"
+			"contracts/Study/ExampleBoolean.sol": "ExampleBoolean"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -60,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Study/ExampleWrapAround.sol": {
-			"keccak256": "0xa3838ebc92157d0202461386fa49d2c78fcdfb30961b3750a4c49181ed62a2cc",
+		"contracts/Study/ExampleBoolean.sol": {
+			"keccak256": "0x445dbe5262b91f4a9136e78dedd55c9d35a8693172801a664f875abb1f783958",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c5dd60908855697c35d5ff360656e312dd180e68c82946b27fb4f7cf40f95282",
-				"dweb:/ipfs/QmYekDtNjS1oeKoYBfqUWQ8aHyYdbbCWQg4tguZ4et1bzU"
+				"bzz-raw://f793dc8e0ef8b97a18e66b5bffb151d6c9cc05a7e01f385aa7dec2115f021e5d",
+				"dweb:/ipfs/QmbjXgZAEdX4UwhLyNC3oEBjTov1ZiqDqx1rgm7cXmf9Mf"
 			]
 		}
 	},

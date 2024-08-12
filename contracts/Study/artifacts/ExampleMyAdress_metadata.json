@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/Study/ExampleAddress.sol": {
-			"keccak256": "0x2174587bded180b3b34a2c213dfcc50745e20a470b5eb4fa86ad09838f68d8eb",
+			"keccak256": "0x5c4249d56a154f0aa9e0af2798b52db7a516c5fada0f9caac92b7fffc45da364",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d5afdc3f02c926c08ee6f7d6c9bc4749fdf4825a099f26aa5829994130cfb45b",
-				"dweb:/ipfs/QmQ2zNQ4xxYbrqiys5e7TSJsfrqYPfWPUpUVJEsoHnvXt6"
+				"bzz-raw://a1e56495aa076748e5fc1a5f6071cc428febb2c28ee2e92e5050c36fb210d467",
+				"dweb:/ipfs/QmbkWQpaqEp6AxKNWs161iooykPQKcwsfHx3ozakjZAipy"
 			]
 		}
 	},

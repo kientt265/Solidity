@@ -6,27 +6,30 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "increementInt",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "fallback"
 			},
 			{
 				"inputs": [],
-				"name": "increementUint8",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myInt",
+				"name": "lastFunctioncalled",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "string",
 						"name": "",
-						"type": "int256"
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lastValueSent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -46,23 +49,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "myUint8",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_myUint",
+						"name": "_myNewUint",
 						"type": "uint256"
 					}
 				],
@@ -70,6 +60,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -85,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Study/ExampleUnt.sol": "ExampleUnt"
+			"contracts/Study/SampleFallback.sol": "SampleFallback"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -99,12 +93,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Study/ExampleUnt.sol": {
-			"keccak256": "0x9e79fffe267b64105c2676991f10260b33559382fba41d21badc3fd5dfba22cb",
+		"contracts/Study/SampleFallback.sol": {
+			"keccak256": "0x2a315189800641c826f246484b6f175fea4bad6fe3d641ab45d1e202aa0d06ff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5406ce660c1fd45fcd53b3b648ddf74abd7d42b6cc11f27d1074b9598656beda",
-				"dweb:/ipfs/QmUaR2Ne6apuCnjho9ZC1SYYaFdeua3gdQA7CRMJv29kmG"
+				"bzz-raw://fd7381cc888df3d22674f82b711d5fbb5b089c08f060bffdfc53eeb6940afe9a",
+				"dweb:/ipfs/QmQmEthJcm7kARgAUYai9rXfvfEookH2TSFNg57udD5GvT"
 			]
 		}
 	},
