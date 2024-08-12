@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAddressBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_someAdress",
+						"type": "address"
+					}
+				],
+				"name": "setSomeAdress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "someAdress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Study/ExampleAddress.sol": "ExampleMyAdress"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Study/ExampleAddress.sol": {
+			"keccak256": "0x2174587bded180b3b34a2c213dfcc50745e20a470b5eb4fa86ad09838f68d8eb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d5afdc3f02c926c08ee6f7d6c9bc4749fdf4825a099f26aa5829994130cfb45b",
+				"dweb:/ipfs/QmQ2zNQ4xxYbrqiys5e7TSJsfrqYPfWPUpUVJEsoHnvXt6"
+			]
+		}
+	},
+	"version": 1
+}

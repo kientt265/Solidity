@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "someAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updateSomeAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Study/ExampleMsgSender.sol": "ExampleMsgSender"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Study/ExampleMsgSender.sol": {
+			"keccak256": "0xc33ea158de5927a514cba65b41fc6c8b2790cc40b3f2ee3533df5e4f7d37fa48",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc1d81bdf755e2e3325cac5c16a8e2ba10ab0b0c65aaf3d144c48f280fbc9af3",
+				"dweb:/ipfs/Qmaq6A9mD5R9A7JfPjNB3FixKojBGdc184NqoEYrKBeWkG"
+			]
+		}
+	},
+	"version": 1
+}
