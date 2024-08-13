@@ -1,0 +1,140 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_FullName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_sex",
+						"type": "string"
+					}
+				],
+				"name": "addPlayer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "countPlayer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addressPlayer",
+						"type": "address"
+					}
+				],
+				"name": "getLevel",
+				"outputs": [
+					{
+						"internalType": "enum DataType.Level",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "players",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "addressPlayer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "FullName",
+						"type": "string"
+					},
+					{
+						"internalType": "enum DataType.Level",
+						"name": "myLevel",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "sex",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Solidity/Datatype.sol": "DataType"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Solidity/Datatype.sol": {
+			"keccak256": "0x2caf21c45ca986558767a21c04e6d503e80e85a714368b5397b9667879da2f1f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e03d376af880d22f97eca847964d15616a20cb8cefd81932b5ee7c358d947885",
+				"dweb:/ipfs/QmNtsSJdjggR1pWWFNUMJ8dDovdPVozNetRe5DJgN8CQBb"
+			]
+		}
+	},
+	"version": 1
+}

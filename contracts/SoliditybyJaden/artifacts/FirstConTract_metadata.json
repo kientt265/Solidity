@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Solidity/FirstConTract.sol": "FirstConTract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Solidity/FirstConTract.sol": {
+			"keccak256": "0x6cff0987792b560a21f9ba57686f360ee01600c51bb7308abc019d08d49a462c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://375bbb0cd9963e2c65e477ed51a7bfbb6756b91ae30a147bc577b3ded8be94f5",
+				"dweb:/ipfs/QmaikHVLthtm2BHVug1DW2x4chmzYwYWh2wDAozE7fyNmW"
+			]
+		}
+	},
+	"version": 1
+}
